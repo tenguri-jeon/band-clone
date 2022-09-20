@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <h1> <a href="#" class="unit-link hide-text">band</a></h1>
+        <h1> <a href="#" class="unit-link"><span class="hide-text">band</span></a>
+        </h1>
         <div class="header-right">
             <a href="#" class="lang">한국어</a>
             <a href="#" class="join">회원가입</a>
-            <a href="#" class="button">로그인</a>
+            <a href="#" class="login-button">로그인</a>
         </div>
     </header>
 
-
+<div class="wrapper">
     <section id="intro">
         <div class="section-container">
             <figure class="intro-image">
@@ -25,7 +27,7 @@
             </figure>
             <div class="intro-text-container">
                 <h2 class="intro-heading">모임이 쉬워진다! <br>우리끼리 밴드</h2>
-                <p>당신의 모임도 BAND로 시작하세요</p>
+                <p class="intro-explain">당신의 모임도 BAND로 시작하세요</p>
                 <a href="#" class="intro-login">로그인</a>
                 <a href="#" class="intro-join">회원가입</a>
                 <p>내게 맞는 밴드를 만나려면 <a href="#" class="green-link">밴드 찾기</a></p>
@@ -52,31 +54,31 @@
                 <p>친구, 가족, 동료 등 함께 하고 싶은 사람과
                     우리만의 공간을 만들어보세요.</p>
             </div>
-            <div class="slogan-contents-container">
+            
+            <div class="slogan-contents">
+                <figure>
+                    <img src="img/img_seo02.jpg" alt="여럿이 웃고있는 사진">
+                </figure>
+                <h3 class="slogan-contets-heading">모임에 딱 맞는 기능들</h3>
+                <p>투표로 의견을 모으고, 함께 일정을 공유하며
+                    게시판과 앨범에는 추억을 쌓아보세요</p>
+            </div>
+             
                 <div class="slogan-contents">
                     <figure>
-                        <img src="img/img_seo02.jpg" alt="여럿이 웃고있는 사진">
+                    <img src="img/img_seo03.jpg" alt="자전거를 타고 여행하는 사진">
                     </figure>
-                    <h3 class="slogan-contets-heading">모임에 딱 맞는 기능들</h3>
-                    <p>투표로 의견을 모으고, 함께 일정을 공유하며
-                        게시판과 앨범에는 추억을 쌓아보세요</p>
-                </div>
-             <div class="slogan-contents-container">
-                 <div class="slogan-contents">
-                     <figure>
-                        <img src="img/img_seo03.jpg" alt="자전거를 타고 여행하는 사진">
-                     </figure>
                     <h3 class="slogan-contets-heading">내가 원하는 모임 찾기</h3>
-                    <p>취미, 스포츠, 또래 모임 등
-                        나와 같은 관심사 밴드를 찾을 수 있어요.</p>
-                </div>        
+                    <p>취미, 스포츠, 또래 모임 등 <br>
+                    나와 같은 관심사 밴드를 찾을 수 있어요.</p>
+            </div>        
         </div>
     </section>
 
     <section id="recommend">
         <div class="recommend-container">
-            <div class="recinnebd-tittle">
-                <h2 class="recommend-heading">이런 밴드 어떠요</h2>
+            <div class="recommend-tittle">
+                <h2 class="recommend-heading">이런 밴드 어때요</h2>
                 <a href="#">모두보기</a>
             </div>
         <ul class="recommend-band-list">
@@ -203,5 +205,42 @@
         </ul>
         </div>
     </section>
+
+
+    <section id="app-download">
+        <div class="app-download-container">
+                <figure class="app-icon">
+                </figure>
+                <div class="app-download-contents">
+                    <h2 class="app-download-heading">
+                        밴드앱을 다운로드 하세요!
+                    </h2>
+                    <p>당신의 모임도 BAND로 시작하세요.</p>
+                </div>
+                <div class="go-to-store">
+                    <a href="#" class="google-play hide-text" >Get It On Google Play</a>
+                    <a href="#" class="app-store hide-text">Download on the App Store</a>
+                </div>
+        </div>
+    </section>
+
+    <section id="agree-cookie">
+        <div class="cookie-explain">
+            <h2>보다 원활한 서비스를 위하여 밴드는 쿠키를 사용합니다.  </h2>
+                <a href="#">더 알아보기&설정</a>
+        </div>
+        <div class="cookie-buttons">
+            <a href="#" class="no">거부</a>
+            <a href="#" class="yes">허용</a>
+        </div>
+    </section>
+   </div>
+
+   <footer>
+    <div class="footer-container">
+        <a href="#">블로그</a><a href="#">스티커제안</a><a href="#">광고</a><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">쿠키설정</a><a href="#">CCPA개인정보관리</a><a href="#">청소년 보호를 위한 노력</a><a href="#">활동정책</a><a href="#">권리침해 신고안내</a><a href="#">개발자</a><a href="#">도움말</a>
+    </div>
+    <p>BAND &copy; 2022</p>
+   </footer>
 </body>
 </html>
