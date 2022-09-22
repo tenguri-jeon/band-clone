@@ -23,7 +23,7 @@
 
 .unit-link{
     display: block;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -489,3 +489,37 @@ h1{
     font-size: 14px;
     font-weight: bold;
 }
+
+footer{
+    background-color: #2a3038;
+    padding-bottom: 40px;
+}
+
+.footer-container{
+    width: var(--container-size);
+    margin: 0 auto;
+}
+
+.footer-container > a {
+    color: var(--footer-font-dark);
+    font-size: 14px;
+    white-space: nowrap;
+    /* white-space는 줄바꿈 허용하지 않음 */
+
+}
+
+.footer-container > a::after {
+    content: '·';
+    margin: 0 8px;
+}
+
+.footer-container > a:last-of-type::after {
+    content: '';
+}
+
+.footer-container > p {
+    color: var(--footer-font-light);
+    margin-top: 8px;
+}
+
+
